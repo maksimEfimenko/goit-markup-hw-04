@@ -70,10 +70,8 @@ img{
     background-color: #404bbf;
     border-radius: 2px;
 }
-.header-one-li{
-    position: relative;
-    color:#404bbf;
-}
+
+
 .header-menu-link{
     color:#2e2f42;
     padding: 24px 0;
@@ -85,6 +83,10 @@ img{
 .header-menu-link:hover,
 .header-menu-link:focus{
     color:#404bbf;
+}
+.header-one-li{
+    position: relative;
+    color:#404bbf; 
 }
 .address{ 
     font-style: normal;
