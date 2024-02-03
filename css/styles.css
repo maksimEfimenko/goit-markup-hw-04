@@ -323,7 +323,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section-four-p:hover{
+.section-four-p:hover .section-four-img-p{
     transform: translateY(0%);
 }
 .section-four-img-p{
