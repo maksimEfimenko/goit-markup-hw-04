@@ -231,6 +231,11 @@ img{
     justify-content: center;
     gap: 24px;
 }
+.ul-icons-li{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
 .svg-icons{
     width: 40px; 
     height: 40px;
