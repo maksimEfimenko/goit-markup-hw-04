@@ -237,13 +237,20 @@ img{
     height: 40px;
 }
 .svg-icons{
-    width: 40px; 
-    height: 40px;
+    fill:#f4f4fd;
 }
 .a-icons{
     width: 100%;
     height: 100%;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     background-color:#4d5ae5;
+}
+.a-icons:hover,
+.a-icons:focus{
+    background-color: #404bbf;
 }
 .section-thre-li{
     background-color: #FFFFFF;
