@@ -29,8 +29,6 @@ img{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    align-items: baseline;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -358,7 +356,7 @@ img{
 .footer-logo-back{
     color: #f4f4fd;
 }
-.footer-a{
+.footer-a-one{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -406,6 +404,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-a:hover,
 .footer-a:focus{
@@ -413,4 +412,8 @@ img{
 }
 .footer-svg{
     fill:#f4f4fd;
+}
+.footer-div-one{
+    display: flex;
+    align-items: 100px 0;
 }
